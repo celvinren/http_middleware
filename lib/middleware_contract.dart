@@ -31,7 +31,7 @@ import 'package:http_middleware/models/response_data.dart';
 ///}
 ///```
 abstract class MiddlewareContract {
-  void interceptRequest({RequestData data});
+  void interceptRequest({RequestData? data});
 
-  void interceptResponse({ResponseData data});
+  void interceptResponse({ResponseData? data});
 }
